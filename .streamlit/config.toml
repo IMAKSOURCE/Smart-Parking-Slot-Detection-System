@@ -1,13 +1,13 @@
 [server]
-headless = false
+headless = true
 runOnSave = false
 fileWatcherType = "none"
 port = 8501
-address = "127.0.0.1"
+address = "0.0.0.0"
 
 [browser]
 gatherUsageStats = false
-serverAddress = "127.0.0.1"
+serverAddress = "localhost"
 serverPort = 8501
 
 [theme]
@@ -16,4 +16,3 @@ primaryColor = "#00f0ff"
 backgroundColor = "#060913"
 secondaryBackgroundColor = "#090e1a"
 textColor = "#ffffff"
-
